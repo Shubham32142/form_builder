@@ -29,7 +29,7 @@ export function FormBuilder() {
     try {
       const response = await axios.post(createForm, form);
       alert(
-        `Form created successfully! Form link: https://form-builder-1.onrender.com/fill-form/${response.data.form._id}`
+        `Form created successfully!`
       );
       setMessage("Form saved successfully!");
       console.log("Form saved successfully:", response.data);
