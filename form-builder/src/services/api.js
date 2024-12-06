@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000/api";
+const BASE_URL = "https://form-builder-ooeb.onrender.com/api";
 
 export const createForm = `${BASE_URL}/forms/create`;
 export const getForms = `${BASE_URL}/forms`;
